@@ -55,6 +55,9 @@ describe('#10000 ramdom packets', function () {
 })
 
 describe('#1 million ramdom packets', function () {
+  // may be spend over 2000ms, disable timeout
+  this.timeout(0);
+
   const TOTAL_MONEY = 1000000;
   const TOTAL_NUMBER = 1000000;
   const wholePacket = new WholePacket(TOTAL_MONEY, TOTAL_NUMBER);

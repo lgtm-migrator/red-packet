@@ -1,5 +1,9 @@
 # red-packet
 
+[![Build Status](https://travis-ci.org/Soontao/red-packet.svg?branch=master)](https://travis-ci.org/Soontao/red-packet) [![Coverage Status](https://coveralls.io/repos/github/Soontao/red-packet/badge.svg?branch=master)](https://coveralls.io/github/Soontao/red-packet?branch=master)
+
+一个类似于微信红包的library，给定一个红包的大小，然后随机获取红包
+
 usage
 
 ```javascript
